@@ -1,0 +1,21 @@
+[
+  {"id": "fed", "name": "Federal Reserve", "zh": "美联储", "layer": "capital", "order": 1, "rates": ["US5Y", "US10Y", "US30Y"], "role": "政策利率决定整条链的融资底价。"},
+  {"id": "ust", "name": "US Treasuries", "zh": "美债曲线", "layer": "capital", "order": 2, "rates": ["US5Y", "US10Y", "US30Y"], "role": "5/10/30 年期收益率，企业发债和估值折现的基准。"},
+  {"id": "credit", "name": "Credit markets", "zh": "信用市场", "layer": "capital", "order": 3, "ticker": "HYG", "role": "债券、CDS、私募信贷：算力建设里不靠经营现金流的那部分钱从这里来。"},
+  {"id": "anthropic", "name": "Anthropic", "zh": "Anthropic", "layer": "model", "order": 1, "proxies": ["AMZN", "GOOGL", "AVGO"], "ipo": {"ticker": "ANT", "exchange": "纳斯达克", "range": "$70–78", "src": "s1a-abc", "steps": [{"label": "招股书", "date": "2026-10-26", "src": "ant-s1-fox"}, {"label": "路演", "date": "2026-11-09", "src": "ant-s1-fox"}, {"label": "定价", "date": "2026-11-18", "expected": true}, {"label": "交易", "date": "2026-11-19", "expected": true}]}, "role": "AI Lab。IPO 路演中，代码 ANT；同时是谷歌、亚马逊的被投方和博通、谷歌的大客户。"},
+  {"id": "openai", "name": "OpenAI", "zh": "OpenAI", "layer": "model", "order": 2, "proxies": ["MSFT", "ORCL"], "role": "AI Lab。未上市，算力承诺分布在甲骨文、微软、博通、AMD、CoreWeave。"},
+  {"id": "spacex", "name": "SpaceX", "zh": "SpaceX", "layer": "cloud", "order": 6, "ticker": "SPCX", "listed": "2026-06-12", "mcapBn": 1943, "role": "综合型公司：航天、星链，2026 年 2 月收购 xAI 后也做模型，并把算力对外出租。2026 年 6 月在纳斯达克上市。"},
+  {"id": "msft", "name": "Microsoft", "zh": "微软", "layer": "cloud", "order": 1, "ticker": "MSFT", "mcapBn": 3959, "role": "超大厂。OpenAI 股东兼最大云供应方之一。"},
+  {"id": "googl", "name": "Alphabet", "zh": "谷歌", "layer": "cloud", "order": 2, "ticker": "GOOGL", "mcapBn": 3533, "role": "超大厂。Anthropic 股东，同时向其出租 TPU 算力。"},
+  {"id": "amzn", "name": "Amazon", "zh": "亚马逊", "layer": "cloud", "order": 3, "ticker": "AMZN", "mcapBn": 2929, "role": "超大厂。Anthropic 最大外部股东。"},
+  {"id": "meta", "name": "Meta", "zh": "Meta", "layer": "cloud", "order": 4, "ticker": "META", "mcapBn": 1640, "role": "超大厂。自用算力为主，capex 已超过经营现金流。"},
+  {"id": "orcl", "name": "Oracle", "zh": "甲骨文", "layer": "cloud", "order": 5, "ticker": "ORCL", "mcapBn": 357, "role": "云厂商。积压订单约一半来自 OpenAI，靠举债先行建设。"},
+  {"id": "crwv", "name": "CoreWeave", "zh": "CoreWeave", "layer": "neocloud", "order": 1, "ticker": "CRWV", "mcapBn": 26.9, "role": "Neocloud。以客户合同为抵押举债买 GPU，信用利差是这条链上最敏感的读数。英伟达同时是它的供应商、股东和兜底买家。"},
+  {"id": "nbis", "name": "Nebius", "zh": "Nebius", "layer": "neocloud", "order": 2, "ticker": "NBIS", "mcapBn": 36.4, "role": "Neocloud。主要合同来自 Meta 和微软；英伟达是它的供应商和股东。"},
+  {"id": "nvda", "name": "Nvidia", "zh": "英伟达", "layer": "hardware", "order": 1, "ticker": "NVDA", "mcapBn": 4070, "role": "GPU。供应商，同时是 OpenAI、Anthropic、SpaceX（原 xAI）、CoreWeave、Nebius 的出资方。"},
+  {"id": "avgo", "name": "Broadcom", "zh": "博通", "layer": "hardware", "order": 2, "ticker": "AVGO", "mcapBn": 1585, "role": "定制芯片。Anthropic 的供应商、担保人和小股东。"},
+  {"id": "amd", "name": "AMD", "zh": "AMD", "layer": "hardware", "order": 3, "ticker": "AMD", "mcapBn": 845, "role": "GPU / CPU。向 OpenAI 发行认股权证换取部署承诺。"},
+  {"id": "mu", "name": "Micron", "zh": "美光", "layer": "hardware", "order": 4, "ticker": "MU", "mcapBn": 819, "role": "存储（DRAM / HBM）。价格周期读数。"},
+  {"id": "tsm", "name": "TSMC", "zh": "台积电", "layer": "hardware", "order": 5, "ticker": "TSM", "mcapBn": 2056, "role": "代工。月度营收是全链条最高频的一手需求数据。"},
+  {"id": "chain", "name": "Whole chain", "zh": "全链条", "layer": "chain", "order": 1, "ticker": "SOXX", "role": "不属于单一主体、影响整条链的事件（政策、审批、电力）。"}
+]

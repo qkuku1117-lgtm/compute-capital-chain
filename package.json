@@ -1,0 +1,35 @@
+{
+  "name": "compute-capital-chain",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "算力资金链 — 跟踪 AI 算力的钱从哪来、到哪去、按什么利率借。只记变动，不下结论。",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "vite build",
+    "build:cloud": "vite build --mode cloud --outDir dist-cloud --emptyOutDir && tsx scripts/export-static.ts",
+    "preview:cloud": "wrangler dev --port 8791",
+    "deploy": "npm run check && npm run build:cloud && wrangler deploy",
+    "start": "NODE_ENV=production tsx server/index.ts",
+    "import": "node scripts/import-klines.mjs",
+    "check": "tsx scripts/check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "hono": "^4.6.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "wrangler": "^4.160.0"
+  }
+}

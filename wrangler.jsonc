@@ -1,0 +1,8 @@
+// Cloudflare 上只放静态文件（dist-cloud/），没有服务端代码。npm run deploy 会先打包再发布。
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "compute-capital-chain",
+  "compatibility_date": "2026-11-01",
+  "send_metrics": false,
+  "assets": { "directory": "./dist-cloud" }
+}

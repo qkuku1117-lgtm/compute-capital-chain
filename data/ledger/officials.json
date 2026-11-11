@@ -1,0 +1,18 @@
+[
+  { "id": "waller", "name": "Christopher Waller", "zh": "沃勒", "role": "理事", "voter2026": true, "statements": [
+    { "date": "2026-10-28", "venue": "FOMC 投票", "text": "投票赞成维持利率不变。", "src": "fed-waller" },
+    { "date": "2026-11-10", "venue": "伦敦讲话（CPI 公布前）", "text": "经济活动强、劳动力市场稳定、通胀过高。倾向 12 月加息 25bp；如果通胀继续加速，应考虑加 50bp。", "quote": "a 50 basis point hike in the policy rate should be considered", "src": "fed-waller" }
+  ] },
+  { "id": "logan", "name": "Lorie Logan", "zh": "洛根", "role": "达拉斯联储主席", "voter2026": true, "statements": [
+    { "date": "2026-11-10", "venue": "休斯敦讲话", "text": "支持至少再加息两次、每次 25bp，对 Waller 提到的更大幅度加息持开放态度。", "src": "bbg-logan" }
+  ] },
+  { "id": "cook", "name": "Lisa Cook", "zh": "库克", "role": "理事", "voter2026": true, "statements": [
+    { "date": "2026-10-28", "venue": "FOMC 投票", "text": "投异议票，主张立即加息 25bp。", "src": "cnbc-fomc" }
+  ] },
+  { "id": "hammack", "name": "Beth Hammack", "zh": "哈马克", "role": "克利夫兰联储主席", "voter2026": true, "statements": [
+    { "date": "2026-10-28", "venue": "FOMC 投票", "text": "投异议票，主张立即加息 25bp。", "src": "cnbc-fomc" }
+  ] },
+  { "id": "warsh", "name": "Kevin Warsh", "zh": "沃什", "role": "主席", "voter2026": true, "statements": [
+    { "date": "2026-10-28", "venue": "FOMC 记者会", "text": "宣布维持利率不变。称 2027 年将有一次会议专门讨论整体政策框架，届时不投票也不发声明。", "src": "cnbc-fomc" }
+  ] }
+]

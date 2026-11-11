@@ -1,0 +1,23 @@
+[
+  { "id": "c-1111-bond", "date": "2026-11-11", "entity": "ust", "kind": "other", "title": "美债市场休市（退伍军人节），股市照常交易", "detail": "当天没有收益率读数，利率反应要等 11 月 12 日。", "src": "cal-kiplinger" },
+  { "id": "c-1111-crwv", "date": "2026-11-11", "entity": "crwv", "kind": "earnings", "title": "CoreWeave 财报后第一个完整交易日收盘", "detail": "盘后和盘前都在上涨；账本只按收盘价记反应。" },
+  { "id": "c-1112-fed", "date": "2026-11-12", "entity": "fed", "kind": "fed", "title": "联储讲话：Hammack、Goolsbee、Daly、Schmid、Williams", "detail": "Hammack 是 10 月会议两位异议者之一，这是她在 CPI 之后第一次公开讲话。时间来自二手日历。", "src": "cal-kiplinger" },
+  { "id": "c-1113-ppi", "date": "2026-11-13", "entity": "fed", "kind": "data", "title": "10 月 PPI（美东 8:30）", "detail": "当天还有 Bowman、Daly 讲话；Jefferson 或 Collins 是否讲话，两个日历不一致。", "src": "cal-fedratecalc" },
+  { "id": "c-1117-retail", "date": "2026-11-17", "entity": "fed", "kind": "data", "title": "10 月零售销售（美东 8:30）", "src": "cal-fedratecalc" },
+  { "id": "c-1117-nvda", "date": "2026-11-17", "entity": "nvda", "kind": "earnings", "title": "英伟达 FQ3 财报（盘后）", "detail": "公司指引 $108B ±2%，一致预期约 $108.9–111.4B。同时看 Q4 毛利率展望和董事会调查的进展说明。个别来源把日期标为未确认。", "src": "nvda-ig" },
+  { "id": "c-1118-minutes", "date": "2026-11-18", "entity": "fed", "kind": "fed", "title": "FOMC 10 月会议纪要（美东 14:00）", "detail": "能看到两票异议背后的讨论范围。部分日历标为暂定。", "src": "cal-fedratecalc" },
+  { "id": "c-1118-ant-price", "date": "2026-11-18", "dateNote": "预计", "entity": "anthropic", "kind": "deal", "title": "Anthropic IPO 定价", "detail": "对照 $70–78 区间：落在区间内、上调还是下调。", "src": "s1a-abc" },
+  { "id": "c-1119-ant-list", "date": "2026-11-19", "dateNote": "预计", "entity": "anthropic", "kind": "deal", "title": "Anthropic 以 ANT 在纳斯达克开始交易", "detail": "上市后亚马逊、谷歌所持股份有了每日市价。", "src": "s1a-abc" },
+  { "id": "c-1125-pce", "date": "2026-11-25", "entity": "fed", "kind": "data", "title": "10 月 PCE 与 Q3 GDP 第二次估计（美东 8:30）", "detail": "12 月会议前最后一个主要通胀读数。", "src": "cal-fedratecalc" },
+  { "id": "c-1209-fomc", "date": "2026-12-09", "entity": "fed", "kind": "fed", "title": "FOMC 利率决议（美东 14:00）", "detail": "对照 Waller、Logan 的表态和隐含概率：不加、25bp 还是 50bp。", "src": "cnbc-fomc" },
+  { "id": "c-1209-avgo", "date": "2026-12-09", "dateNote": "12 月 9–10 日，未确认", "entity": "avgo", "kind": "earnings", "title": "博通 FQ4 财报", "detail": "指引：营收约 $34.8B，AI 半导体 $21.7B。看是否披露对 Anthropic 的订单和担保口径。", "src": "avgo-mb" },
+  { "id": "c-1210-tsm", "date": "2026-12-10", "dateNote": "通常在每月 10 日前后", "entity": "tsm", "kind": "data", "title": "台积电 11 月营收", "detail": "对照 Q4 指引 $52.3–54.3B 的进度。", "src": "tsm-6k" },
+  { "id": "c-orcl-q2", "date": "", "dateNote": "12 月，日期未公布", "entity": "orcl", "kind": "earnings", "title": "甲骨文 FQ2 财报", "detail": "看 RPO、capex 进度和债务。", "src": "orcl-call" },
+  { "id": "c-mu-earn", "date": "", "dateNote": "12 月下旬，日期未公布", "entity": "mu", "kind": "earnings", "title": "美光 FQ1 财报", "detail": "看 DRAM / HBM 合约价和 capex。" },
+  { "id": "c-openai-t2", "date": "", "dateNote": "无时间表", "entity": "openai", "kind": "deal", "title": "OpenAI 本轮第二笔（至多约 $9B）是否交割", "src": "openai-bbg" },
+  { "id": "c-nvda-probe", "date": "", "dateNote": "分析师预计 4–6 周", "entity": "nvda", "kind": "other", "title": "英伟达董事会调查结论", "src": "nvda-ti" },
+  { "id": "c-spcx-q4", "date": "", "dateNote": "Q4 财报，日期未公布", "entity": "spacex", "kind": "earnings", "title": "SpaceX 年底名义算力是否到 2.5–3GW", "detail": "对照 Q3 电话会给出的年底目标；Q3 末是 1.7GW。", "src": "spcx-q3-stcn" },
+  { "id": "c-ant-rating", "date": "", "dateNote": "无时间表", "entity": "anthropic", "kind": "other", "title": "Anthropic 首次正式信用评级", "detail": "对照 Blackstone 预期的 BB 区间。", "src": "wsjcn-blackstone" },
+  { "id": "c-crwv-cds", "date": "", "dateNote": "待补数据", "entity": "crwv", "kind": "data", "title": "CoreWeave 财报后的 CDS 和票据收益率读数", "detail": "财报前约 1,135bp / 15.5%。财报后的报价还没取到。" },
+  { "id": "c-nbis-q3", "date": "", "dateNote": "待补数据", "entity": "nbis", "kind": "earnings", "title": "Nebius Q3 实际数字", "detail": "多方称 11 月 5 日盘前发布，但没有检索到结果；积压订单的两个来源也不一致。", "src": "nbis-investing" }
+]

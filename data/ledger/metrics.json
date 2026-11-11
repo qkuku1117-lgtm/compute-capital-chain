@@ -1,0 +1,1285 @@
+[
+  {
+    "id": "fed.range",
+    "entity": "fed",
+    "name": "联邦基金利率目标区间",
+    "history": [
+      {
+        "asOf": "2026-09",
+        "text": "加息至 3.75–4.00%",
+        "value": 3.875,
+        "src": "cnbc-fomc"
+      },
+      {
+        "asOf": "2026-10-28",
+        "text": "3.75–4.00%（维持，10 比 2）",
+        "value": 3.875,
+        "src": "fomc-oct",
+        "note": "Cook、Hammack 两票异议，主张立即加息 25bp。"
+      }
+    ]
+  },
+  {
+    "id": "fed.dec25",
+    "entity": "fed",
+    "name": "12 月加息 25bp 的市场隐含概率",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-10-27",
+        "text": "78.3%",
+        "value": 78.3,
+        "src": "fedwatch-fox"
+      },
+      {
+        "asOf": "2026-10-28",
+        "text": "82.6%",
+        "value": 82.6,
+        "src": "fedwatch-fox"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "约 85%",
+        "value": 85,
+        "src": "cnbc-waller"
+      }
+    ]
+  },
+  {
+    "id": "fed.dec50",
+    "entity": "fed",
+    "name": "12 月加息 50bp 的市场隐含概率",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-11-09",
+        "text": "接近 0",
+        "value": 0,
+        "src": "fedwatch-cnbc"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "11.7%–15%",
+        "value": 13.6,
+        "src": "fedwatch-cnbc",
+        "note": "不同媒体引用的读数不一致：11.7%、13.6%、接近 15%。"
+      }
+    ]
+  },
+  {
+    "id": "fed.cpi",
+    "entity": "fed",
+    "name": "CPI 环比",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-09",
+        "text": "0.6%",
+        "value": 0.6,
+        "src": "bls-cpi"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "0.4%（预期 0.3%）",
+        "value": 0.4,
+        "src": "bls-cpi",
+        "note": "因去年政府停摆缺数据，BLS 本次未公布同比。"
+      }
+    ]
+  },
+  {
+    "id": "fed.corecpi",
+    "entity": "fed",
+    "name": "核心 CPI 环比",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-08",
+        "text": "0.3%",
+        "value": 0.3,
+        "src": "axios-cpi"
+      },
+      {
+        "asOf": "2026-09",
+        "text": "0.3%",
+        "value": 0.3,
+        "src": "axios-cpi"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "0.3%（预期 0.2%）",
+        "value": 0.3,
+        "src": "bls-cpi",
+        "note": "连续第三个月 0.3%。超级核心服务环比 0.45%（Wolf Street）。"
+      }
+    ]
+  },
+  {
+    "id": "fed.dots",
+    "entity": "fed",
+    "name": "点阵图 2026 年末利率中值",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-09",
+        "text": "4.1%",
+        "value": 4.1,
+        "src": "cnbc-fomc"
+      }
+    ]
+  },
+  {
+    "id": "ust.2y",
+    "entity": "ust",
+    "name": "2 年期收益率",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "4.736%（当日 +18bp 以上）",
+        "value": 4.736,
+        "src": "fedwatch-cnbc",
+        "note": "moomoo 没有 2 年期序列，此项来自媒体报道。"
+      }
+    ]
+  },
+  {
+    "id": "credit.hyper",
+    "entity": "credit",
+    "name": "五大超大厂 2026 年累计发债",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-05",
+        "text": "$159B（前 5 个月）",
+        "value": 159,
+        "src": "credit-cb"
+      },
+      {
+        "asOf": "2026-11",
+        "text": "$296B",
+        "value": 296,
+        "src": "credit-cb",
+        "note": "已超过高盛全年预测 $250B。统计口径各家不同。"
+      }
+    ]
+  },
+  {
+    "id": "credit.ai",
+    "entity": "credit",
+    "name": "2026 年 AI 相关债务发行",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026",
+        "text": "近 $500B，超大厂约占 40%",
+        "value": 500,
+        "src": "credit-gs"
+      }
+    ]
+  },
+  {
+    "id": "credit.concession",
+    "entity": "credit",
+    "name": "超大厂新债发行让价中位数",
+    "unit": "bp",
+    "history": [
+      {
+        "asOf": "2025",
+        "text": "2.25bp",
+        "value": 2.25,
+        "src": "credit-cb"
+      },
+      {
+        "asOf": "2026",
+        "text": "12bp",
+        "value": 12,
+        "src": "credit-cb"
+      }
+    ]
+  },
+  {
+    "id": "credit.cover",
+    "entity": "credit",
+    "name": "超大厂债券认购倍数",
+    "unit": "x",
+    "history": [
+      {
+        "asOf": "2026-02",
+        "text": "5x",
+        "value": 5,
+        "src": "credit-jpm"
+      },
+      {
+        "asOf": "2026-07",
+        "text": "低于 2x",
+        "value": 2,
+        "src": "credit-jpm"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.valuation",
+    "entity": "anthropic",
+    "name": "估值",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-05",
+        "text": "$965B（5 月融资轮）",
+        "value": 965,
+        "src": "wsjcn-valuation"
+      },
+      {
+        "asOf": "2026-10-05",
+        "text": "约 $2T（市场讨论，未落地）",
+        "value": 2000,
+        "src": "wsjcn-valuation"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "约 $1.02T（基本股本，按定价区间）",
+        "value": 1020,
+        "src": "s1a-abc",
+        "note": "不含未发行激励股份的摊薄口径约 $1.24T，全面摊薄约 $1.4T。"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.ipo",
+    "entity": "anthropic",
+    "name": "IPO 条款",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "$70–78 / 股，8.25 亿股 A 类，募资至多约 $64.4B，另有同步私募 $26B",
+        "src": "s1a-abc",
+        "note": "约 8.01 亿股新股 + 七位联合创始人各售 3,378,378 股。代码 ANT，纳斯达克。"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.runrate",
+    "entity": "anthropic",
+    "name": "年化营收（run-rate）",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-09-30",
+        "text": "约 $71B",
+        "value": 71,
+        "src": "s1a-tfn"
+      },
+      {
+        "asOf": "2026-10-31",
+        "text": "约 $81B",
+        "value": 81,
+        "src": "s1a-tfn"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.rev",
+    "entity": "anthropic",
+    "name": "季度营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q1",
+        "text": "约 $4.7B",
+        "value": 4.73,
+        "src": "s1a-mlq",
+        "note": "由前三季合计 $33.24B 和环比增速反推，非直接披露。"
+      },
+      {
+        "asOf": "2026-Q2",
+        "text": "约 $11.5B（环比 +144%）",
+        "value": 11.54,
+        "src": "s1a-mlq",
+        "note": "由环比增速反推。"
+      },
+      {
+        "asOf": "2026-Q3",
+        "text": "$16.96B（环比 +47%）",
+        "value": 16.96,
+        "src": "s1a-mlq"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.opinc",
+    "entity": "anthropic",
+    "name": "季度经营利润",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q2",
+        "text": "+$0.974B",
+        "value": 0.974,
+        "src": "s1a-mlq"
+      },
+      {
+        "asOf": "2026-Q3",
+        "text": "−$0.567B",
+        "value": -0.567,
+        "src": "s1a-mlq"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.compute",
+    "entity": "anthropic",
+    "name": "算力与芯片采购承诺",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "约 $900B，其中约 $71B 在 12 个月内到期",
+        "value": 900,
+        "src": "s1a-mlq"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.cash",
+    "entity": "anthropic",
+    "name": "现金",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "超过 $112B",
+        "value": 112,
+        "src": "s1a-mlq"
+      }
+    ]
+  },
+  {
+    "id": "anthropic.rating",
+    "entity": "anthropic",
+    "name": "预期首次信用评级",
+    "history": [
+      {
+        "asOf": "2026-10-30",
+        "text": "BB 区间（非投资级）",
+        "src": "wsjcn-blackstone",
+        "note": "Blackstone 的预期，不是评级机构的正式评级。"
+      }
+    ]
+  },
+  {
+    "id": "openai.valuation",
+    "entity": "openai",
+    "name": "估值",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-03",
+        "text": "$852B（$122B 融资轮）",
+        "value": 852,
+        "src": "openai-hl"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "目标 $1.4T（拟募 $30B 以上）",
+        "value": 1400,
+        "src": "openai-bbg"
+      },
+      {
+        "asOf": "2026-11-06",
+        "text": "$1.25T 投前（首笔 $11B 到账）",
+        "value": 1250,
+        "src": "openai-bbg",
+        "note": "总额可能到 $20B，第二笔至多约 $9B 尚未交割。"
+      }
+    ]
+  },
+  {
+    "id": "openai.compute",
+    "entity": "openai",
+    "name": "算力承诺总额（各口径）",
+    "unit": "$B",
+    "kind": "estimates",
+    "history": [
+      {
+        "asOf": "2026-02",
+        "text": "约 $600B（公司对投资者给出的 2030 年前规划口径）",
+        "value": 600,
+        "src": "labs-investing"
+      },
+      {
+        "asOf": "2026",
+        "text": "$415B（仅按供应商 SEC 文件）",
+        "value": 415,
+        "src": "openai-nmp"
+      },
+      {
+        "asOf": "2026",
+        "text": "约 $730B / 25.5GW（加上公司公告和媒体报道）",
+        "value": 730,
+        "src": "openai-nmp"
+      },
+      {
+        "asOf": "2026",
+        "text": "约 $1.15T（追踪者按名义金额加总，2025–2035）",
+        "value": 1150,
+        "src": "openai-tunguz",
+        "note": "四个数字口径不同，不能直接比较。"
+      }
+    ]
+  },
+  {
+    "id": "spacex.xai",
+    "entity": "spacex",
+    "name": "xAI 估值与收购作价",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-01",
+        "text": "$230B（E 轮 $20B）",
+        "value": 230,
+        "src": "xai-vavc"
+      },
+      {
+        "asOf": "2026-02-02",
+        "text": "约 $250B（SpaceX 全股票收购）",
+        "value": 250,
+        "src": "xai-vavc",
+        "note": "xAI 法律实体已于 2026 年 5 月 6 日注销。"
+      }
+    ]
+  },
+  {
+    "id": "spacex.ipo",
+    "entity": "spacex",
+    "name": "IPO",
+    "history": [
+      {
+        "asOf": "2026-06-12",
+        "text": "发行价 $135，募资约 $75B；首日收 $160.95",
+        "src": "spcx-ipo-npr",
+        "note": "代码 SPCX，纳斯达克。首日开盘 $150，盘中最高 $176.52。"
+      }
+    ]
+  },
+  {
+    "id": "spacex.compute",
+    "entity": "spacex",
+    "name": "名义算力",
+    "unit": "GW",
+    "history": [
+      {
+        "asOf": "2025-09-30",
+        "text": "0.6GW",
+        "value": 0.6,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-06-30",
+        "text": "1.4GW",
+        "value": 1.4,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-09-30",
+        "text": "1.7GW（年底目标 2.5–3GW）",
+        "value": 1.7,
+        "src": "spcx-q3-stcn",
+        "note": "管理层在电话会上称正以每月约 20 万颗 GB300 的速度上线，2027 年计划新增 10GW。"
+      }
+    ]
+  },
+  {
+    "id": "spacex.rev",
+    "entity": "spacex",
+    "name": "季度营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2025-Q3",
+        "text": "$5.6B",
+        "value": 5.6,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-Q2",
+        "text": "$7.81B",
+        "value": 7.81,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-Q3",
+        "text": "$14.6B（同比 +161%）",
+        "value": 14.6,
+        "src": "spcx-q3-stcn",
+        "note": "其中 SI（AI）业务 $7.56B，环比 +195%，首次超过星链所在的连接业务（$5.25B）。SI 收入含 Cursor 并表的 $0.608B。"
+      }
+    ]
+  },
+  {
+    "id": "spacex.ni",
+    "entity": "spacex",
+    "name": "季度净利润",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2025-Q3",
+        "text": "−$1.1B",
+        "value": -1.1,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-Q2",
+        "text": "−$0.541B",
+        "value": -0.541,
+        "src": "spcx-q3-stcn"
+      },
+      {
+        "asOf": "2026-Q3",
+        "text": "+$4.4B（上市后首个盈利季度）",
+        "value": 4.4,
+        "src": "spcx-q3-stcn"
+      }
+    ]
+  },
+  {
+    "id": "msft.capex26",
+    "entity": "msft",
+    "name": "2026 自然年 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07",
+        "text": "约 $175B",
+        "value": 175,
+        "src": "capex-gate"
+      },
+      {
+        "asOf": "2026-10-28",
+        "text": "约 $170B",
+        "value": 170,
+        "src": "msft-ds",
+        "note": "下调原因：第三方产能交付延迟。"
+      }
+    ]
+  },
+  {
+    "id": "msft.qcapex",
+    "entity": "msft",
+    "name": "季度 capex（含融资租赁）",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "FQ1 FY27",
+        "text": "$45.2B（此前展望 >$50B）",
+        "value": 45.2,
+        "src": "msft-ds"
+      },
+      {
+        "asOf": "FQ2 FY27 指引",
+        "text": ">$50B",
+        "value": 50,
+        "src": "msft-ds"
+      }
+    ]
+  },
+  {
+    "id": "msft.azure",
+    "entity": "msft",
+    "name": "Azure 增速（固定汇率）",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "FQ1 FY27 指引",
+        "text": "44–45%",
+        "value": 44.5,
+        "src": "msft-st"
+      },
+      {
+        "asOf": "FQ1 FY27",
+        "text": "48%",
+        "value": 48,
+        "src": "msft-st"
+      },
+      {
+        "asOf": "FQ2 FY27 指引",
+        "text": "49–50%",
+        "value": 49.5,
+        "src": "msft-st"
+      }
+    ]
+  },
+  {
+    "id": "msft.backlog",
+    "entity": "msft",
+    "name": "商业积压订单",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-09-30",
+        "text": "$677B",
+        "value": 677,
+        "src": "msft-ds",
+        "note": "公司未披露其中 OpenAI 的占比。"
+      }
+    ]
+  },
+  {
+    "id": "msft.openai",
+    "entity": "msft",
+    "name": "OpenAI 贡献的季度营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "FQ1 FY27",
+        "text": "$10.0B，约占总营收 11%",
+        "value": 10,
+        "src": "msft-six"
+      }
+    ]
+  },
+  {
+    "id": "googl.capex26",
+    "entity": "googl",
+    "name": "2026 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07",
+        "text": "$195–205B",
+        "value": 200,
+        "src": "capex-gate"
+      },
+      {
+        "asOf": "2026-10-28",
+        "text": "$195–205B（维持）",
+        "value": 200,
+        "src": "capex-gate",
+        "note": "管理层称 2027 年 capex 将\"显著增加\"，未给数字。"
+      }
+    ]
+  },
+  {
+    "id": "googl.fcf",
+    "entity": "googl",
+    "name": "季度自由现金流",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "−$9.07B（预期 +$2.7B）",
+        "value": -9.07,
+        "src": "googl-sa"
+      }
+    ]
+  },
+  {
+    "id": "googl.eps",
+    "entity": "googl",
+    "name": "Q3 每股收益",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "GAAP $2.12；调整后 $2.67；一致预期 $3.02",
+        "src": "googl-sa",
+        "note": "其他收益为 −$8.2B，主要是 SpaceX 持仓的未实现亏损。"
+      }
+    ]
+  },
+  {
+    "id": "amzn.capex26",
+    "entity": "amzn",
+    "name": "2026 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07",
+        "text": "约 $220B",
+        "value": 220,
+        "src": "capex-gate"
+      },
+      {
+        "asOf": "2026-10-29",
+        "text": "约 $220B（维持）",
+        "value": 220,
+        "src": "amzn-ir"
+      }
+    ]
+  },
+  {
+    "id": "amzn.qcapex",
+    "entity": "amzn",
+    "name": "季度 capex",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2025-Q3",
+        "text": "$35.1B",
+        "value": 35.1,
+        "src": "amzn-pomegra"
+      },
+      {
+        "asOf": "2026-Q3",
+        "text": "$77.3B（预期 $58.7B）",
+        "value": 77.3,
+        "src": "amzn-pomegra"
+      }
+    ]
+  },
+  {
+    "id": "amzn.aws",
+    "entity": "amzn",
+    "name": "AWS 增速",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "39.3%，年化营收 $184B",
+        "value": 39.3,
+        "src": "amzn-ir",
+        "note": "近五年最快。积压订单 $578B。"
+      }
+    ]
+  },
+  {
+    "id": "amzn.anthropic",
+    "entity": "amzn",
+    "name": "所持 Anthropic 股份价值",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "约 $271.8B（按 $78 计），约为亚马逊市值的 9%",
+        "value": 271.8,
+        "src": "reuters-factbox",
+        "note": "累计投入约 $18.6B。"
+      }
+    ]
+  },
+  {
+    "id": "meta.capex26",
+    "entity": "meta",
+    "name": "2026 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07",
+        "text": "$130–145B",
+        "value": 137.5,
+        "src": "meta-q3"
+      },
+      {
+        "asOf": "2026-10-21",
+        "text": "$135–145B",
+        "value": 140,
+        "src": "meta-q3",
+        "note": "Q3 单季 capex $34.91B。未给 2027 年指引。"
+      }
+    ]
+  },
+  {
+    "id": "meta.fcf",
+    "entity": "meta",
+    "name": "季度自由现金流",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "−$2.12B（首次为负）",
+        "value": -2.12,
+        "src": "meta-sp"
+      }
+    ]
+  },
+  {
+    "id": "meta.outlook",
+    "entity": "meta",
+    "name": "标普评级展望",
+    "history": [
+      {
+        "asOf": "2026-10-29",
+        "text": "稳定",
+        "src": "meta-sp"
+      },
+      {
+        "asOf": "2026-10-30",
+        "text": "负面",
+        "src": "meta-sp",
+        "note": "标普预计 2026、2027 年自由经营现金流分别为 −$22B、−$71B。Meta 表示不同意。"
+      }
+    ]
+  },
+  {
+    "id": "orcl.rpo",
+    "entity": "orcl",
+    "name": "剩余履约义务（RPO）",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2025-08-31",
+        "text": "$455B",
+        "value": 455,
+        "src": "orcl-10q"
+      },
+      {
+        "asOf": "2026-05-31",
+        "text": "$638B",
+        "value": 638,
+        "src": "orcl-sp"
+      },
+      {
+        "asOf": "2026-08-31",
+        "text": "$664B",
+        "value": 664,
+        "src": "orcl-10q",
+        "note": "分析师估计其中约 $300B 来自 OpenAI。"
+      }
+    ]
+  },
+  {
+    "id": "orcl.capex27",
+    "entity": "orcl",
+    "name": "FY27 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-09-10",
+        "text": "$90–95B，其中净现金 capex 不超过 $70B",
+        "value": 92.5,
+        "src": "orcl-call"
+      }
+    ]
+  },
+  {
+    "id": "orcl.debt",
+    "entity": "orcl",
+    "name": "债务与评级",
+    "history": [
+      {
+        "asOf": "2026-08-31",
+        "text": "债务约 $156B，另有 $261B 数据中心租赁承诺；标普 BBB-",
+        "src": "orcl-sp",
+        "note": "BBB- 是投资级最低一档。下调日期未核实。"
+      }
+    ]
+  },
+  {
+    "id": "orcl.cds",
+    "entity": "orcl",
+    "name": "5 年 CDS",
+    "unit": "bp",
+    "history": [
+      {
+        "asOf": "2026-08",
+        "text": "约 200bp（Reuters）；另有报道称接近 300bp",
+        "value": 200,
+        "src": "orcl-cds",
+        "note": "来源之间不一致，当前读数未取到。"
+      }
+    ]
+  },
+  {
+    "id": "crwv.backlog",
+    "entity": "crwv",
+    "name": "积压订单",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2025-09-30",
+        "text": "$55.6B",
+        "value": 55.6,
+        "src": "crwv-8k"
+      },
+      {
+        "asOf": "2026-06-30",
+        "text": "约 $104B",
+        "value": 104,
+        "src": "crwv-8k"
+      },
+      {
+        "asOf": "2026-09-30",
+        "text": "$132.5B",
+        "value": 132.5,
+        "src": "crwv-8k"
+      }
+    ]
+  },
+  {
+    "id": "crwv.capex26",
+    "entity": "crwv",
+    "name": "2026 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "$37–39B",
+        "value": 38,
+        "src": "crwv-8k",
+        "note": "Q3 单季 $14.5B，高于指引上沿。"
+      }
+    ]
+  },
+  {
+    "id": "crwv.rev26",
+    "entity": "crwv",
+    "name": "2026 营收指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-11-10",
+        "text": "$13.0–13.3B（上调）",
+        "value": 13.15,
+        "src": "crwv-8k",
+        "note": "Q3 营收 $3.66B，同比 +168%。"
+      }
+    ]
+  },
+  {
+    "id": "crwv.interest",
+    "entity": "crwv",
+    "name": "季度利息支出",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "$0.846B",
+        "value": 0.846,
+        "src": "crwv-finimize"
+      },
+      {
+        "asOf": "2026-Q4 指引",
+        "text": "$1.05–1.15B",
+        "value": 1.1,
+        "src": "crwv-8k"
+      }
+    ]
+  },
+  {
+    "id": "crwv.cds",
+    "entity": "crwv",
+    "name": "5 年 CDS",
+    "unit": "bp",
+    "history": [
+      {
+        "asOf": "2026-10-15",
+        "text": "1,194.5bp（当时纪录）",
+        "value": 1194.5,
+        "src": "crwv-cds-cnbc",
+        "note": "按常规换算隐含 5 年违约概率超过 60%。"
+      },
+      {
+        "asOf": "2026-11-05",
+        "text": "超过 1,289bp",
+        "value": 1289,
+        "src": "crwv-tipranks"
+      },
+      {
+        "asOf": "2026-11-06",
+        "text": "1,155bp",
+        "value": 1155,
+        "src": "crwv-tipranks"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "约 1,135bp",
+        "value": 1135,
+        "src": "crwv-finimize",
+        "note": "财报后的读数尚未取到。"
+      }
+    ]
+  },
+  {
+    "id": "crwv.bond",
+    "entity": "crwv",
+    "name": "2032 年票据收益率",
+    "unit": "%",
+    "history": [
+      {
+        "asOf": "2026-11-06",
+        "text": "超过 16%",
+        "value": 16,
+        "src": "crwv-tipranks"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "15.5%",
+        "value": 15.5,
+        "src": "crwv-finimize",
+        "note": "票息 9.625%。"
+      }
+    ]
+  },
+  {
+    "id": "nbis.backlog",
+    "entity": "nbis",
+    "name": "积压订单 / RPO",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-03-31",
+        "text": "RPO $33.59B",
+        "value": 33.59,
+        "src": "nbis-investing"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "$37.49B 或约 $49.4B（两个来源不一致）",
+        "value": 37.49,
+        "src": "nbis-investing",
+        "note": "Q3 实际数字未检索到。"
+      }
+    ]
+  },
+  {
+    "id": "nbis.capex",
+    "entity": "nbis",
+    "name": "capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07",
+        "text": "$17.5–22.5B",
+        "value": 20,
+        "src": "nbis-yahoo"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "$20–25B",
+        "value": 22.5,
+        "src": "nbis-yahoo"
+      }
+    ]
+  },
+  {
+    "id": "nvda.guide",
+    "entity": "nvda",
+    "name": "FQ3 营收：指引与一致预期",
+    "unit": "$B",
+    "kind": "estimates",
+    "history": [
+      {
+        "asOf": "2026-08",
+        "text": "公司指引 $108B ±2%，毛利率 74% ±50bp",
+        "value": 108,
+        "src": "nvda-ig",
+        "note": "指引不含中国数据中心计算收入。"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "一致预期约 $108.9–111.4B，EPS 约 $2.47–2.53",
+        "value": 110,
+        "src": "nvda-ig",
+        "note": "各来源取数时间不同。"
+      }
+    ]
+  },
+  {
+    "id": "nvda.supply",
+    "entity": "nvda",
+    "name": "长期供应与产能协议",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-07-26",
+        "text": "$279B",
+        "value": 279,
+        "src": "nvda-sa"
+      }
+    ]
+  },
+  {
+    "id": "avgo.ai",
+    "entity": "avgo",
+    "name": "AI 半导体营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "FQ3 FY26",
+        "text": "$16.7B",
+        "value": 16.7,
+        "src": "avgo-call"
+      },
+      {
+        "asOf": "FQ4 FY26 指引",
+        "text": "$21.7B（同比 +236%）",
+        "value": 21.7,
+        "src": "avgo-call"
+      }
+    ]
+  },
+  {
+    "id": "avgo.ai-fy",
+    "entity": "avgo",
+    "name": "AI 半导体营收（财年口径）",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "FY26",
+        "text": "$58B",
+        "value": 58,
+        "src": "avgo-call"
+      },
+      {
+        "asOf": "FY27 可见度",
+        "text": "$115B",
+        "value": 115,
+        "src": "avgo-call"
+      },
+      {
+        "asOf": "FY28 可见度",
+        "text": "$230B",
+        "value": 230,
+        "src": "avgo-call"
+      }
+    ]
+  },
+  {
+    "id": "avgo.anthropic",
+    "entity": "avgo",
+    "name": "对 Anthropic 的敞口",
+    "history": [
+      {
+        "asOf": "2026-10-04",
+        "text": "担保约 $42B",
+        "src": "avgo-247"
+      },
+      {
+        "asOf": "2026-11-10",
+        "text": "不可撤销订单约 $161B + 担保约 $42–43B + 私募认购 $1B",
+        "src": "placement-gf",
+        "note": "有分析师估计 Anthropic 约占 FY27 AI 营收的 40%。"
+      }
+    ]
+  },
+  {
+    "id": "amd.rev",
+    "entity": "amd",
+    "name": "季度营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "$13.4B（预期 $13.09B），同比 +45%",
+        "value": 13.4,
+        "src": "amd-reuters"
+      },
+      {
+        "asOf": "2026-Q4 指引",
+        "text": "约 $17B（预期 $16.23B）",
+        "value": 17,
+        "src": "amd-reuters"
+      }
+    ]
+  },
+  {
+    "id": "amd.dc",
+    "entity": "amd",
+    "name": "数据中心营收",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-Q3",
+        "text": "$8.55B（预期 $8.20B），同比 +97%",
+        "value": 8.55,
+        "src": "amd-reuters",
+        "note": "管理层预计 2027 年营收增长超过 80%。"
+      }
+    ]
+  },
+  {
+    "id": "mu.capex",
+    "entity": "mu",
+    "name": "财年 capex",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "FY25",
+        "text": "$15.857B",
+        "value": 15.857,
+        "src": "mu-10k"
+      },
+      {
+        "asOf": "FY26",
+        "text": "$30.712B",
+        "value": 30.712,
+        "src": "mu-10k"
+      }
+    ]
+  },
+  {
+    "id": "mu.dram",
+    "entity": "mu",
+    "name": "DRAM 合约价走向",
+    "history": [
+      {
+        "asOf": "2026-Q4",
+        "text": "TrendForce 预计本季上涨 10–15%",
+        "src": "mu-fool",
+        "note": "管理层对 2027 年的表述是涨价\"更温和\"。"
+      }
+    ]
+  },
+  {
+    "id": "tsm.monthly",
+    "entity": "tsm",
+    "name": "月度营收",
+    "unit": "NT$B",
+    "history": [
+      {
+        "asOf": "2026-08",
+        "text": "NT$514.81B",
+        "value": 514.81,
+        "src": "tsm-6k"
+      },
+      {
+        "asOf": "2026-09",
+        "text": "约 NT$511.7B",
+        "value": 511.7,
+        "src": "tsm-6k",
+        "note": "由 10 月环比 +14.7% 反推。"
+      },
+      {
+        "asOf": "2026-10",
+        "text": "NT$586.89B（同比 +59.7%）",
+        "value": 586.89,
+        "src": "tsm-6k"
+      }
+    ]
+  },
+  {
+    "id": "tsm.capex26",
+    "entity": "tsm",
+    "name": "2026 capex 指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-01",
+        "text": "$52–56B",
+        "value": 54,
+        "src": "tsm-call"
+      },
+      {
+        "asOf": "2026-10-15",
+        "text": "$60–64B",
+        "value": 62,
+        "src": "tsm-call",
+        "note": "10 月 15 日为重申；上调发生在此前。"
+      }
+    ]
+  },
+  {
+    "id": "tsm.q4",
+    "entity": "tsm",
+    "name": "Q4 营收指引",
+    "unit": "$B",
+    "history": [
+      {
+        "asOf": "2026-10-15",
+        "text": "$52.3–54.3B",
+        "value": 53.3,
+        "src": "tsm-call",
+        "note": "10 月单月约占指引中值的 34–35%。"
+      }
+    ]
+  }
+]
