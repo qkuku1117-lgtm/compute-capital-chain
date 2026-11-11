@@ -84,6 +84,11 @@
   "nvda-crwv-verdict": { "pub": "Verdict", "type": "media", "via": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-invests-2bn-coreweave-drive-112331135.html", "date": "2026-01-27" },
   "nvda-crwv-backstop": { "pub": "Motley Fool", "type": "media", "url": "https://www.fool.com/investing/2025/10/05/coreweave-nvidia-6-3-billion-backstop-explained/", "date": "2025-10-05" },
   "nvda-nbis-bbg": { "pub": "Bloomberg", "type": "media", "url": "https://www.bloomberg.com/news/articles/2026-03-11/nvidia-to-invest-2-billion-in-ai-data-center-specialist-nebius", "date": "2026-03-11" },
+  "avgo-googl-reuters": { "pub": "Reuters", "type": "media", "via": "Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/broadcom-signs-long-term-deal-223745965.html", "date": "2026-04-06" },
+  "meta-avgo-quartz": { "pub": "Quartz", "type": "media", "via": "Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/articles/meta-extends-custom-ai-chip-123450462.html", "date": "2026-04-15" },
+  "meta-nvda-reuters": { "pub": "Reuters", "type": "media", "via": "Yahoo Finance", "url": "https://finance.yahoo.com/news/nvidia-sell-meta-millions-chips-211720887.html", "date": "2026-02-17" },
+  "amd-meta-pr": { "pub": "AMD 新闻稿", "type": "filing", "url": "https://newsroom.amd.com/news/amd-and-meta-announce-expanded-strategic-partnersh/", "date": "2026-02-24" },
+  "orcl-nvda-ft": { "pub": "Financial Times", "type": "anon", "via": "TechSpot", "url": "https://www.techspot.com/news/108047-oracle-orders-400000-nvidia-chips-power-massive-stargate.html" },
 
   "cal-kiplinger": { "pub": "Kiplinger", "type": "aggregate", "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar" },
   "cal-fedratecalc": { "pub": "FedRateCalc 日历", "type": "aggregate", "url": "https://fedratecalc.com/us-economic-calendar/november-2026/" },
